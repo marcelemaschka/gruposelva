@@ -1,0 +1,11 @@
+type: "crud-v1"
+entityName: Cliente
+entityNamePlural: Clientes
+description: Cadastro de Clientes
+name: clientes
+readMenu: Clientes//Visualizar
+createMenu: Clientes//Cadastrar
+fields: 
+  - nome
+  - endereco
+  - numero
