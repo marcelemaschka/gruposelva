@@ -1,0 +1,10 @@
+label: Diária
+name: diaria
+type: number
+options: 
+  width: "2"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true

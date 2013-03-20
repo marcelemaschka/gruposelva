@@ -1,0 +1,10 @@
+label: Descrição
+name: descricao
+type: string
+options: 
+  width: "5"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
