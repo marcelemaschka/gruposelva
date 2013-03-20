@@ -2,7 +2,7 @@ label: Telefone
 name: telefone
 type: string
 options: 
-  width: "2"
+  width: "3"
   minlength: 2
   maxlength: 50
   widget: 

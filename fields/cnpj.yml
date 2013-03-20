@@ -4,6 +4,6 @@ type: string
 options: 
   widget: 
     id: textinput
-  width: "2"
+  width: "3"
   showLabel: true
   mask: "99.999.999/9999-99"

@@ -2,7 +2,7 @@ label: Razão Social
 name: razao_social
 type: string
 options: 
-  width: "5"
+  width: "6"
   minlength: 2
   maxlength: 50
   widget: 

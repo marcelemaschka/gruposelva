@@ -2,7 +2,7 @@ label: Nome Fantasia
 name: nome_fantasia
 type: string
 options: 
-  width: "5"
+  width: "6"
   minlength: 2
   maxlength: 50
   widget: 

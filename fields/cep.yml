@@ -2,7 +2,7 @@ label: CEP
 name: cep
 type: string
 options: 
-  width: "2"
+  width: "4"
   minlength: 2
   maxlength: 50
   widget: 
