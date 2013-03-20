@@ -1,5 +1,5 @@
-label: Nome Entidade
-name: nome_entidade
+label: Nome
+name: nome
 type: string
 options: 
   width: 3

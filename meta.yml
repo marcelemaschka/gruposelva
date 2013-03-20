@@ -6,6 +6,6 @@ name: clientes
 readMenu: Clientes//Visualizar
 createMenu: Clientes//Cadastrar
 fields: 
-  - nome_entidade
+  - nome
   - endereco
   - numero
