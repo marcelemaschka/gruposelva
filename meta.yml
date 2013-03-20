@@ -12,8 +12,6 @@ fields:
   - insc__estadual
   - insc__municipal
   - telefone
-  - fax
-  - celular
   - cep
   - logradouro
   - numero
