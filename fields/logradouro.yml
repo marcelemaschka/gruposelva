@@ -1,8 +1,8 @@
-label: Número
-name: numero
-type: number
+label: Logradouro
+name: logradouro
+type: string
 options: 
-  width: "3"
+  width: "6"
   minlength: 2
   maxlength: 50
   widget: 

@@ -1,6 +1,6 @@
-label: Número
-name: numero
-type: number
+label: Bairro
+name: bairro
+type: string
 options: 
   width: "3"
   minlength: 2

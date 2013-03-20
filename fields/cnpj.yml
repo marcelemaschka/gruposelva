@@ -1,0 +1,9 @@
+label: CNPJ
+name: cnpj
+type: string
+options: 
+  widget: 
+    id: textinput
+  width: "2"
+  showLabel: true
+  mask: "99.999.999/9999-99"

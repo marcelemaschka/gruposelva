@@ -1,5 +1,5 @@
-label: Número
-name: numero
+label: Insc. Municipal
+name: insc__municipal
 type: number
 options: 
   width: "3"
@@ -8,3 +8,4 @@ options:
   widget: 
     id: textinput
   showLabel: true
+  optional: true

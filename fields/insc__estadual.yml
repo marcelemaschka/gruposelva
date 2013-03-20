@@ -1,10 +1,11 @@
-label: Nome
-name: nome
-type: string
+label: Insc. Estadual
+name: insc__estadual
+type: number
 options: 
-  width: 3
+  width: "3"
   minlength: 2
   maxlength: 50
   widget: 
     id: textinput
   showLabel: true
+  optional: true

@@ -1,0 +1,11 @@
+label: Estado
+name: estado
+type: enum
+options: 
+  width: "1"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  values: "AC - Acre\nAL - Alagoas\nAP - Amapá\nAM - Amazonas\nBA - Bahia\nCE - Ceará\nDF - Distrito Federal\nES - Espírito Santo\nGO - Goiás\nMA - Maranhão\nMT - Mato Grosso\nMS - Mato Grosso do Sul\nMG - Minas Gerais\nPA - Pará\nPB - Paraíba\nPR - Paraná\nPE - Pernambuco\nPI - Piauí\nRJ - Rio de Janeiro\nRN - Rio Grande do Norte\nRS - Rio Grande do Sul\nRO - Rondônia\nRR - Roraima\nSC - Santa Catarina\nSP - São Paulo\nSE - Sergipe\nTO - Tocantins"

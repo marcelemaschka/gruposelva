@@ -6,6 +6,18 @@ name: clientes
 readMenu: Clientes//Visualizar
 createMenu: Clientes//Cadastrar
 fields: 
-  - nome
-  - endereco
+  - nome_fantasia
+  - razao_social
+  - cnpj
+  - insc__estadual
+  - insc__municipal
+  - telefone
+  - fax
+  - celular
+  - cep
+  - logradouro
   - numero
+  - complemento
+  - bairro
+  - cidade
+  - estado

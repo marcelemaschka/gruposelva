@@ -1,6 +1,6 @@
-label: Número
-name: numero
-type: number
+label: CEP
+name: cep
+type: string
 options: 
   width: "3"
   minlength: 2
@@ -8,3 +8,4 @@ options:
   widget: 
     id: textinput
   showLabel: true
+  mask: 99999/999

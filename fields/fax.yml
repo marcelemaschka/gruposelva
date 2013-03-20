@@ -1,10 +1,11 @@
-label: Número
-name: numero
-type: number
+label: Fax
+name: fax
+type: string
 options: 
-  width: "3"
+  width: "2"
   minlength: 2
   maxlength: 50
   widget: 
     id: textinput
   showLabel: true
+  optional: true

@@ -1,8 +1,8 @@
-label: Número
-name: numero
-type: number
+label: Razão Social
+name: razao_social
+type: string
 options: 
-  width: "3"
+  width: "5"
   minlength: 2
   maxlength: 50
   widget: 
