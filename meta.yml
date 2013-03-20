@@ -3,8 +3,8 @@ entityName: Cliente
 entityNamePlural: Clientes
 description: Cadastro de Clientes
 name: clientes
-readMenu: Clientes//Visualizar
-createMenu: Clientes//Cadastrar
+readMenu: Visualizar//Clientes
+createMenu: Cadastrar//Clientes
 fields: 
   - nome_fantasia
   - razao_social
