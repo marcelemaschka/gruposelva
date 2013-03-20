@@ -8,4 +8,4 @@ options:
   widget: 
     id: textinput
   showLabel: true
-  values: "AC - Acre\nAL - Alagoas\nAP - Amapá\nAM - Amazonas\nBA - Bahia\nCE - Ceará\nDF - Distrito Federal\nES - Espírito Santo\nGO - Goiás\nMA - Maranhão\nMT - Mato Grosso\nMS - Mato Grosso do Sul\nMG - Minas Gerais\nPA - Pará\nPB - Paraíba\nPR - Paraná\nPE - Pernambuco\nPI - Piauí\nRJ - Rio de Janeiro\nRN - Rio Grande do Norte\nRS - Rio Grande do Sul\nRO - Rondônia\nRR - Roraima\nSC - Santa Catarina\nSP - São Paulo\nSE - Sergipe\nTO - Tocantins"
+  values: "AC - Acre: 1\nAL - Alagoas: 2\nAP - Amapá: 3\nAM - Amazonas: 4\nBA - Bahia: 5\nCE - Ceará: 6\nDF - Distrito Federal: 7\nES - Espírito Santo: 8\nGO - Goiás: 9\nMA - Maranhão: 10\nMT - Mato Grosso: 11\nMS - Mato Grosso do Sul: 12\nMG - Minas Gerais: 13\nPA - Pará: 14\nPB - Paraíba: 15\nPR - Paraná: 16\nPE - Pernambuco: 17\nPI - Piauí: 18\nRJ - Rio de Janeiro: 19\nRN - Rio Grande do Norte: 20\nRS - Rio Grande do Sul: 21\nRO - Rondônia: 22\nRR - Roraima: 23\nSC - Santa Catarina: 24\nSP - São Paulo: 25\nSE - Sergipe: 26\nTO - Tocantins: 27"
