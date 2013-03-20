@@ -1,0 +1,24 @@
+type: "crud-v1"
+entityName: Funcionário
+entityNamePlural: Funcionários
+description: Cadastro de Funcionários
+name: funcionarios
+readMenu: Funcionários//Visualizar
+createMenu: Funcionários//Cadastrar
+fields: 
+  - cargo
+  - nome
+  - data_de_nascimento
+  - cpf
+  - rg
+  - pis
+  - cep
+  - logradouro
+  - numero
+  - complemento
+  - bairro
+  - cidade
+  - estado
+  - telefone
+  - celular
+  - e_mail

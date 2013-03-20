@@ -1,0 +1,10 @@
+label: Data de Nascimento
+name: data_de_nascimento
+type: date
+options: 
+  widget: 
+    id: datepicker
+  width: "2"
+  showLabel: true
+  optional: true
+  group: Dados Pessoais

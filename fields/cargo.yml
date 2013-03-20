@@ -1,0 +1,9 @@
+label: Cargo
+name: cargo
+type: reference
+options: 
+  width: "2"
+  showLabel: true
+  repository: gruposelva
+  module: cargo
+  display: descricao

@@ -1,0 +1,11 @@
+label: Nome
+name: nome
+type: string
+options: 
+  width: "4"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  group: Dados Pessoais

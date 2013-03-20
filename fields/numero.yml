@@ -1,0 +1,12 @@
+label: Número
+name: numero
+type: number
+options: 
+  width: "1"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  optional: true
+  group: Endereço

@@ -1,0 +1,13 @@
+label: CPF
+name: cpf
+type: string
+options: 
+  width: "2"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  optional: true
+  mask: "999.999.999-99"
+  group: Dados Pessoais

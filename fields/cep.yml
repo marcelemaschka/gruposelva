@@ -1,0 +1,13 @@
+label: CEP
+name: cep
+type: string
+options: 
+  width: "2"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  mask: "99999-999"
+  optional: true
+  group: Endereço
