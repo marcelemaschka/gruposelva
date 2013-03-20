@@ -9,8 +9,8 @@ fields:
   - nome_fantasia
   - razao_social
   - cnpj
-  - insc__estadual
-  - insc__municipal
+  - insc_estadual
+  - insc_municipal
   - telefone
   - cep
   - logradouro

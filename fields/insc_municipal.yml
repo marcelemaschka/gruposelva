@@ -1,5 +1,5 @@
-label: Insc. Estadual
-name: insc__estadual
+label: Insc. Municipal
+name: insc_municipal
 type: number
 options: 
   width: "3"
