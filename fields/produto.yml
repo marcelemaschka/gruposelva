@@ -3,7 +3,7 @@ name: produto
 type: string
 options: 
   width: "6"
-  minlength: 2
+  minlength: "1"
   maxlength: 50
   widget: 
     id: textinput
