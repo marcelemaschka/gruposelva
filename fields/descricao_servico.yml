@@ -2,7 +2,7 @@ label: Descrição do Serviço
 name: descricao_servico
 type: string
 options: 
-  width: 3
+  width: "8"
   minlength: 2
   maxlength: 50
   widget: 

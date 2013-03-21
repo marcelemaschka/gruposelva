@@ -2,7 +2,7 @@ label: Cliente
 name: cliente
 type: reference
 options: 
-  width: 3
+  width: "4"
   showLabel: true
   repository: gruposelva
   module: clientes

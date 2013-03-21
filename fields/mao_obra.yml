@@ -2,7 +2,7 @@ label: Mão de Obra
 name: mao_obra
 type: reference
 options: 
-  width: 3
+  width: "6"
   showLabel: true
   repository: gruposelva
   module: cargo
