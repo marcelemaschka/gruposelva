@@ -7,3 +7,4 @@ options:
   repository: gruposelva
   module: cargo
   display: descricao
+  optional: true

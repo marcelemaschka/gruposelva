@@ -8,3 +8,4 @@ options:
   widget: 
     id: textinput
   showLabel: true
+  optional: true
