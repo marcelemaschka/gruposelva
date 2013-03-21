@@ -1,0 +1,9 @@
+label: Mão de Obra
+name: mao_obra
+type: reference
+options: 
+  width: 3
+  showLabel: true
+  repository: gruposelva
+  module: cargo
+  display: descricao

@@ -1,0 +1,14 @@
+type: "crud-v1"
+entityName: Escopo
+entityNamePlural: Escopos
+description: Escopo
+name: escopo
+readMenu: Visualizar//Escopos
+createMenu: Cadastrar//Escopos
+fields: 
+  - cliente
+  - descricao_servico
+  - mao_obra
+  - diarias
+  - produto
+  - quantidade
