@@ -8,3 +8,4 @@ options:
   module: cargo
   display: descricao
   optional: true
+  multiSelect: true

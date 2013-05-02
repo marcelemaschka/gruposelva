@@ -7,3 +7,4 @@ options:
   repository: gruposelva
   module: clientes
   display: nome_fantasia
+  multiSelect: false
