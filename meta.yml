@@ -1,6 +1,6 @@
 type: "crud-v1"
-entityName: Escopooo
-entityNamePlural: Escopooos
+entityName: Escopo
+entityNamePlural: Escopos
 description: Escopo
 name: escopo
 readMenu: Visualizar//Escopos
