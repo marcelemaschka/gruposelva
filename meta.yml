@@ -6,6 +6,6 @@ name: cargos
 readMenu: Visualizar//Cargos
 createMenu: Cadastrar//Cargos
 fields: 
-  - descricaooooo
+  - descricao
   - diaria
   - ferias_impostos
