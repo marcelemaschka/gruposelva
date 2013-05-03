@@ -1,11 +1,11 @@
-label: Mão de Obra T
+label: Mão de Obra
 name: mao_obra
 type: reference
 options: 
   width: "6"
   showLabel: true
   repository: gruposelva
-  module: cargo
+  module: cargos
   display: descricao
   optional: true
-  multiSelect: false
+  multiSelect: true
