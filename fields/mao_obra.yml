@@ -10,3 +10,4 @@ options:
   optional: true
   multiSelect: true
   allowEdit: true
+  allowAmount: true
