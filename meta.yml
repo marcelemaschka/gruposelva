@@ -9,3 +9,4 @@ fields:
   - escopo
   - percentual_de_lucro
   - impostos
+  - preco_final
