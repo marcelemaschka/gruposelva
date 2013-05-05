@@ -3,8 +3,8 @@ entityName: Funcionário
 entityNamePlural: Funcionários
 description: Cadastro de Funcionários
 name: funcionarios
-readMenu: Visualizar//Funcionários
-createMenu: Cadastrar//Funcionários
+readMenu: Funcionários//Visualizar
+createMenu: Funcionários//Cadastrar
 fields: 
   - cargo
   - nome
