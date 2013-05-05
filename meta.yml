@@ -1,0 +1,10 @@
+type: "crud-v1"
+entityName: Agendamento
+entityNamePlural: Agendamentos
+description: Agendamento de visita
+name: agendamentos
+readMenu: Agendamentos//Visualizar
+createMenu: Agendamentos//Cadastrar
+fields: 
+  - data_da_visita
+  - cliente

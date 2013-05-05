@@ -1,0 +1,8 @@
+label: Data da visita
+name: data_da_visita
+type: date
+options: 
+  widget: 
+    id: datepicker
+  width: 3
+  showLabel: true
