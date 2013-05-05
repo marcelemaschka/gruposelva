@@ -1,0 +1,8 @@
+label: Percentual de Lucro
+name: percentual_de_lucro
+type: number
+options: 
+  width: 3
+  showLabel: true
+  min: "0"
+  max: "1"

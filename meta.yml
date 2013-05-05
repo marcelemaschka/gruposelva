@@ -1,0 +1,11 @@
+type: "crud-v1"
+entityName: Orçamento
+entityNamePlural: Orçamentos
+description: Orçamentos
+name: orcamentos
+readMenu: Orçamentos//Visualizar
+createMenu: Orçamentos//Gerar
+fields: 
+  - escopo
+  - percentual_de_lucro
+  - impostos

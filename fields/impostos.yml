@@ -1,0 +1,8 @@
+label: Impostos
+name: impostos
+type: number
+options: 
+  width: 3
+  showLabel: true
+  min: "0"
+  max: "1"

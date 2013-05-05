@@ -1,0 +1,8 @@
+label: Escopo
+name: escopo
+type: reference
+options: 
+  width: 3
+  showLabel: true
+  module: escopos
+  display: nome_cliente_data
