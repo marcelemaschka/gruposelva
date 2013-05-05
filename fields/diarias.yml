@@ -1,11 +1,6 @@
 label: Diárias
 name: diarias
-type: string
+type: integer
 options: 
   width: 3
-  minlength: "1"
-  maxlength: 50
-  widget: 
-    id: textinput
   showLabel: true
-  optional: true

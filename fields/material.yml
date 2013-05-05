@@ -1,0 +1,11 @@
+label: Material
+name: material
+type: reference
+options: 
+  width: 3
+  showLabel: true
+  module: materiais
+  display: nome
+  multiSelect: true
+  allowEdit: true
+  allowAmount: true

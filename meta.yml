@@ -10,5 +10,4 @@ fields:
   - descricao_servico
   - mao_obra
   - diarias
-  - produto
-  - quantidade
+  - material
