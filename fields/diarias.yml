@@ -1,0 +1,6 @@
+label: Diárias
+name: diarias
+type: integer
+options: 
+  width: 3
+  showLabel: true

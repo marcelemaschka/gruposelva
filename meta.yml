@@ -9,4 +9,5 @@ fields:
   - agendamento
   - descricao_servico
   - mao_obra
+  - diarias
   - material

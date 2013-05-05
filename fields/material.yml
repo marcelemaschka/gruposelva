@@ -2,11 +2,10 @@ label: Material
 name: material
 type: reference
 options: 
-  width: 3
+  width: "6"
   showLabel: true
   module: materiais
   display: nome
   multiSelect: true
   allowEdit: true
-  allowAmount: false
-  extraInfo: Qtd
+  allowAmount: true
