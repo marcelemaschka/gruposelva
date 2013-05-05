@@ -1,10 +1,10 @@
-label: Cliente
-name: cliente
+label: Agendamento
+name: agendamento
 type: reference
 options: 
   width: "4"
   showLabel: true
   repository: gruposelva
-  module: clientes
-  display: nome_fantasia
+  module: agendamentos
+  display: cliente_nome
   multiSelect: false
