@@ -8,5 +8,4 @@ options:
   display: nome
   multiSelect: true
   allowEdit: true
-  allowAmount: false
   extraInfo: Qtd

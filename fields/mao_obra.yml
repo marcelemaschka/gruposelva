@@ -10,5 +10,4 @@ options:
   optional: true
   multiSelect: true
   allowEdit: true
-  allowAmount: false
   extraInfo: Qtd/diária
