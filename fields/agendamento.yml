@@ -6,5 +6,5 @@ options:
   showLabel: true
   repository: gruposelva
   module: agendamentos
-  display: cliente_nome
+  display: cliente.nome
   multiSelect: false
