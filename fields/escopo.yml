@@ -4,5 +4,5 @@ type: reference
 options: 
   width: 3
   showLabel: true
-  module: escopos
+  module: escopo
   display: descricao_servico
