@@ -1,0 +1,11 @@
+type: "crud-v1"
+entityName: Material
+entityNamePlural: Materiais
+description: Cadastro de Materiais
+name: materiais
+readMenu: Materiais//Visualizar
+createMenu: Materiais//Cadastrar
+fields: 
+  - nome
+  - preco_de_compra
+  - preco_de_venda

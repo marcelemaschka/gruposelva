@@ -1,0 +1,6 @@
+label: Preço de venda
+name: preco_de_venda
+type: number
+options: 
+  width: 3
+  showLabel: true

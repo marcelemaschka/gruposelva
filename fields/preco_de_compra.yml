@@ -1,0 +1,7 @@
+label: Preço de compra
+name: preco_de_compra
+type: number
+options: 
+  width: 3
+  showLabel: true
+  min: "0"
