@@ -4,5 +4,5 @@ type: reference
 options: 
   width: 3
   showLabel: true
-  module: clientes
   display: nome
+  module: clientes
