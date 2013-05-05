@@ -4,5 +4,5 @@ type: reference
 options: 
   width: 3
   showLabel: true
-  display: nome
+  display: nome_fantasia
   module: clientes
