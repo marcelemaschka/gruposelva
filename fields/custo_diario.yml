@@ -1,5 +1,5 @@
 label: Custo diário (R$)
-name: custo_diario__r__
+name: custo_diario
 type: number
 options: 
   width: "2"
