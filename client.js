@@ -15,14 +15,14 @@ onChange = function(property, newValue, oldValue, attributes) {
           // TODO: show error
           throw new Error('dsd');
         }
-        cargo = getLocal('cargos', escopo.mao_obra[i].item._key);
+        cargo = getLocal('cargos', escopo.mao_obra[i].item._key).value;
         total += cargo.custo_diario * dias * qtd;
       }
     }
     if (escopo.material) {
       for (var i=0; i < escopo.material.length; i++) {
         qtd = parseInt(escopo.material[i].extraInfo);
-        material = getLocal('material', escopo.material[i].item._key);
+        material = getLocal('material', escopo.material[i].item._key).value;
         total += material.preco_de_venda * qtd;
       }
     }
