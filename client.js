@@ -1,7 +1,7 @@
 var extraParser = /(\d+)\/(\d+)/;
 
 onChange = function(property, newValue, oldValue, attributes) {
-  var escopo, qtd, dias, match, maoObra, material;
+  var escopo, qtd, dias, match, cargo, material;
   var total = 0;
   if (property === 'escopo' && newValue) {
     escopo = getLocal('escopo', newValue._key).value;
