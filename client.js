@@ -32,7 +32,6 @@ onChange = function(property, newValue, oldValue, attributes) {
     , oldMaterial, oldMaoObra;
 
   if (property === 'escopo') {
-    rv = { values: {} };
     escopo = getLocal('escopo', newValue._key).value;
     return { values: {mao_obra: escopo.mao_obra, material: escopo.material }};
   } else if (property == 'mao_obra') {
