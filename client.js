@@ -31,6 +31,8 @@ onChange = function(property, newValue, oldValue, attributes) {
   var escopo, precoFinal, newMaterial, newMaoObra
     , oldMaterial, oldMaoObra;
 
+  if (!newValue) return;
+
   if (property === 'escopo') {
     escopo = getLocal('escopo', newValue._key).value;
     return { values: {mao_obra: escopo.mao_obra, material: escopo.material }};
