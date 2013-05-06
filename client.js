@@ -1,7 +1,8 @@
 var extraParser = /(\d+)\/(\d+)/;
 
 onChange = function(property, newValue, oldValue, attributes) {
-  var escopo, total, qtd, dias, match, maoObra, material;
+  var escopo, qtd, dias, match, maoObra, material;
+  var total = 0;
   if (property === 'escopo' && newValue) {
     escopo = getLocal('escopo', newValue._key).value;
     if (escopo.mao_obra) {
@@ -14,17 +15,18 @@ onChange = function(property, newValue, oldValue, attributes) {
           // TODO: show error
           throw new Error('dsd');
         }
-        maoObra = getLocal('mao_obra', escopo.mao_obra[i].item._key);
-        // calcular valor da mao de obra baseado nos dias/qtd
+        cargo = getLocal('cargos', escopo.mao_obra[i].item._key);
+        total += cargo.custo_diario * dias * qtd;
       }
     }
     if (escopo.material) {
       for (var i=0; i < escopo.material.length; i++) {
         qtd = parseInt(escopo.material[i].extraInfo);
-        material = getLocal('mao_obra', escopo.mao_obra[i].item._key);
-        // calcular valor do material baseado no preço/qtd
+        material = getLocal('material', escopo.material[i].item._key);
+        total += material.preco_de_venda * qtd;
       }
     }
+    return {values: {preco_final: total}};
   }
 };
 
