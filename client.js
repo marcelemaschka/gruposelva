@@ -1,38 +1,58 @@
 var extraParser = /(\d+)\/(\d+)/;
 
+function calcMaoObra(mao_obra) {
+  var rv = 0;
+  for (var i=0; i < mao_obra.length; i++) {
+    match = extraParser.exec(mao_obra[i].extraInfo);
+    if (match) {
+      qtd = parseInt(match[1]) || 0;
+      dias = parseInt(match[2]) || 0;
+    } else {
+      // TODO: show error
+      throw new Error('dsd');
+    }
+    cargo = getLocal('cargos', mao_obra[i].item._key).value;
+    rv += cargo.custo_diario * dias * qtd;
+  }
+  return rv;
+}
+
+function calcMaterial(material) {
+  var rv = 0;
+  for (var i=0; i < material.length; i++) {
+    qtd = parseInt(material[i].extraInfo) || 0;
+    material = getLocal('material', material[i].item._key).value;
+    rv += material.preco_de_venda * qtd;
+  }
+  return rv;
+}
+
 onChange = function(property, newValue, oldValue, attributes) {
-  var escopo, qtd, dias, match, cargo, material, rv;
-  if (property === 'escopo' && newValue) {
-    rv = {
-      values: {
-        preco_final: 0,
-      }
-    };
+  var escopo, qtd, dias, match, cargo, material, precoFinal
+    , newMaterial, newMaoObra, oldMaterial, oldMaoObra;
+
+  if (property === 'escopo') {
+    rv = { values: {} };
     escopo = getLocal('escopo', newValue._key).value;
-    if (escopo.mao_obra) {
-      for (var i=0; i < escopo.mao_obra.length; i++) {
-        match = extraParser.exec(escopo.mao_obra[i].extraInfo);
-        if (match) {
-          qtd = parseInt(match[1]);
-          dias = parseInt(match[2]);
-        } else {
-          // TODO: show error
-          throw new Error('dsd');
-        }
-        cargo = getLocal('cargos', escopo.mao_obra[i].item._key).value;
-        rv.values.preco_final += cargo.custo_diario * dias * qtd;
-      }
-      rv.values.mao_obra = escopo.mao_obra;
+    return { values: {mao_obra: escopo.mao_obra, material: escopo.material }};
+  } else if (property == 'mao_obra') {
+    newMaoObra = calcMaoObra(newValue);
+    precoFinal = attributes.preco_final;
+    if (oldValue) {
+      oldMaoObra = calcMaoObra(oldValue);
+      precoFinal -= oldMaoObra;
     }
-    if (escopo.material) {
-      for (var i=0; i < escopo.material.length; i++) {
-        qtd = parseInt(escopo.material[i].extraInfo);
-        material = getLocal('material', escopo.material[i].item._key).value;
-        rv.values.preco_final += material.preco_de_venda * qtd;
-      }
-      rv.values.material = escopo.material;
+    precoFinal += newMaoObra;
+    return { values: {preco_final: precoFinal}};
+  } else if (property == 'material') {
+    newMaterial = calcMaterial(newValue);
+    precoFinal = attributes.preco_final;
+    if (oldValue) {
+      oldMaterial = calcMaterial(oldValue);
+      precoFinal -= oldMaterial;
     }
-    return rv;
+    precoFinal += newMaterial;
+    return { values: {preco_final: precoFinal }};
   }
 };
 
