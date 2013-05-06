@@ -7,5 +7,5 @@ readMenu: Cargos//Visualizar
 createMenu: Cargos//Cadastrar
 fields: 
   - descricao
-  - diaria
+  - custo_diario
   - ferias_impostos

@@ -1,5 +1,5 @@
-label: Diária
-name: diaria
+label: Custo diário
+name: custo_diario
 type: number
 options: 
   width: "2"
