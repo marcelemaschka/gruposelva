@@ -28,32 +28,17 @@ function calcMaterial(material) {
 }
 
 onChange = function(property, newValue, oldValue, attributes) {
-  var escopo, precoFinal, newMaterial, newMaoObra
-    , oldMaterial, oldMaoObra;
+  var escopo, precoFinal;
 
   if (!newValue) return;
 
   if (property === 'escopo') {
     escopo = getLocal('escopo', newValue._key).value;
     return { values: {mao_obra: escopo.mao_obra, material: escopo.material }};
-  } else if (property == 'mao_obra') {
-    newMaoObra = calcMaoObra(newValue);
-    precoFinal = attributes.preco_final;
-    if (oldValue) {
-      oldMaoObra = calcMaoObra(oldValue);
-      precoFinal -= oldMaoObra;
-    }
-    precoFinal += newMaoObra;
+  } else if (property == 'mao_obra' || property == 'material') {
+    precoFinal = calcMaoObra(newValue);
+    precoFinal += calcMaterial(newValue);
     return { values: {preco_final: precoFinal}};
-  } else if (property == 'material') {
-    newMaterial = calcMaterial(newValue);
-    precoFinal = attributes.preco_final;
-    if (oldValue) {
-      oldMaterial = calcMaterial(oldValue);
-      precoFinal -= oldMaterial;
-    }
-    precoFinal += newMaterial;
-    return { values: {preco_final: precoFinal }};
   }
 };
 
