@@ -1,7 +1,7 @@
 var extraParser = /(\d+)\/(\d+)/;
 
 function calcMaoObra(mao_obra) {
-  var rv = 0;
+  var match, qtd, dias, rv = 0;
   for (var i=0; i < mao_obra.length; i++) {
     match = extraParser.exec(mao_obra[i].extraInfo);
     if (match) {
@@ -18,7 +18,7 @@ function calcMaoObra(mao_obra) {
 }
 
 function calcMaterial(material) {
-  var rv = 0;
+  var qtd, rv = 0;
   for (var i=0; i < material.length; i++) {
     qtd = parseInt(material[i].extraInfo) || 0;
     material = getLocal('material', material[i].item._key).value;
@@ -28,7 +28,7 @@ function calcMaterial(material) {
 }
 
 onChange = function(property, newValue, oldValue, attributes) {
-  var escopo, qtd, dias, match, cargo, material, precoFinal
+  var escopo, precoFinal
     , newMaterial, newMaoObra, oldMaterial, oldMaoObra;
 
   if (property === 'escopo') {
