@@ -1,10 +1,6 @@
 label: Preço Final
 name: preco_final
-type: string
+type: number
 options: 
   width: 3
-  minlength: 2
-  maxlength: 50
-  widget: 
-    id: textinput
   showLabel: true
