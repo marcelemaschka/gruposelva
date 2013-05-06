@@ -1,0 +1,11 @@
+label: Material
+name: material
+type: reference
+options: 
+  width: "6"
+  showLabel: true
+  multiSelect: true
+  allowEdit: true
+  module: materiais
+  display: nome
+  extraInfo: Qtd

@@ -1,0 +1,11 @@
+label: Mão de Obra
+name: mao_obra
+type: reference
+options: 
+  width: "6"
+  showLabel: true
+  module: cargos
+  display: descricao
+  multiSelect: true
+  allowEdit: true
+  extraInfo: Qtd/dias

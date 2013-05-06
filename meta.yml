@@ -10,3 +10,5 @@ fields:
   - percentual_de_lucro
   - impostos
   - preco_final
+  - mao_obra
+  - material
