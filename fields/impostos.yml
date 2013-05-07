@@ -1,4 +1,4 @@
-label: Impostos
+label: "Impostos (%)"
 name: impostos
 type: number
 options: 

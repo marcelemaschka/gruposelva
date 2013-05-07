@@ -7,7 +7,7 @@ readMenu: Orçamentos//Visualizar
 createMenu: Orçamentos//Gerar
 fields: 
   - escopo
-  - percentual_de_lucro
+  - lucro
   - impostos
   - preco_final
   - mao_obra

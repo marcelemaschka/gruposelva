@@ -1,5 +1,5 @@
-label: Percentual de Lucro
-name: percentual_de_lucro
+label: "Lucro (%)"
+name: lucro
 type: number
 options: 
   width: 3
