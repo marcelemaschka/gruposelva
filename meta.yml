@@ -3,8 +3,8 @@ entityName: Escopo
 entityNamePlural: Escopos
 description: Escopo
 name: escopo
-readMenu: Escopos//Visualizar
-createMenu: Escopos//Cadastrar
+readMenu: Visualizar//Escopos
+createMenu: Cadastrar//Escopos
 fields: 
   - agendamento
   - descricao_servico
