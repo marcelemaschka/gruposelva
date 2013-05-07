@@ -9,3 +9,4 @@ onChange = function(property, newValue, oldValue, attributes) {
     return {values: {nome_cliente_data: nome_cliente + ', ' + data}};
   }
 };
+
