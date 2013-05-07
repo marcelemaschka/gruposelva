@@ -6,5 +6,5 @@ name: agendamentos
 readMenu: Agendamentos//Visualizar
 createMenu: Agendamentos//Cadastrar
 fields: 
-  - data_da_visita
   - cliente
+  - data_da_visita
