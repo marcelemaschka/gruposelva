@@ -3,8 +3,8 @@ entityName: Agendamento
 entityNamePlural: Agendamentos
 description: Agendamento de visita
 name: agendamentos
-readMenu: Agendamentos//Visualizar
-createMenu: Agendamentos//Cadastrar
+readMenu: Visualizar//Agendamentos
+createMenu: Cadastrar//Agendamentos
 fields: 
   - cliente
   - data_da_visita
