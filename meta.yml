@@ -3,8 +3,8 @@ entityName: Orçamento
 entityNamePlural: Orçamentos
 description: Orçamentos
 name: orcamentos
-readMenu: Orçamentos//Visualizar
-createMenu: Orçamentos//Gerar
+readMenu: Visualizar//Orçamentos
+createMenu: Gerar//Orçamentos
 fields: 
   - escopo
   - lucro
