@@ -23,8 +23,8 @@ function calcMaterial(material) {
   if (!material) return rv;
   for (var i=0; i < material.length; i++) {
     qtd = parseInt(material[i].extraInfo) || 0;
-    mat = getLocal('material', material[i].item._key).value;
-    rv += material.preco_de_venda * qtd;
+    mat = getLocal('materiais', material[i].item._key).value;
+    rv += mat.preco_de_venda * qtd;
   }
   return rv;
 }
