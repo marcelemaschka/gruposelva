@@ -3,8 +3,8 @@ entityName: Cargo
 entityNamePlural: Cargos
 description: Cadastro de Cargos
 name: cargos
-readMenu: Cargos//Visualizar
-createMenu: Cargos//Cadastrar
+readMenu: Visualizar//Cargos
+createMenu: Cadastrar//Cargos
 fields: 
   - descricao
   - custo_diario
