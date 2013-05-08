@@ -1,10 +1,8 @@
 label: Pet
 name: pet
-type: string
+type: reference
 options: 
-  minlength: 2
-  maxlength: 50
-  widget: 
-    id: textinput
   width: 3
   showLabel: true
+  module: pets
+  display: nome
