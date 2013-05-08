@@ -1,0 +1,10 @@
+type: "crud-v1"
+entityName: Agendamento Pet Shop
+entityNamePlural: Agendamento Pet Shop
+description: Agendamento Pet Shop
+name: agendamento_pet_shop
+readMenu: Agendamentos//Visualizar
+createMenu: Agendamentos//Cadastrar
+fields: 
+  - pet
+  - data_da_consulta
