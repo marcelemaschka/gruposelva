@@ -8,3 +8,6 @@ createMenu: Agendamentos//Cadastrar
 fields: 
   - pet
   - data_da_consulta
+  - medico
+  - prestador
+  - servico
