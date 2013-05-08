@@ -5,4 +5,4 @@ options:
   width: 3
   showLabel: true
   display: nome
-  module: cadastro_de_pets
+  module: pets
