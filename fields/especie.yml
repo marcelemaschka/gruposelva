@@ -1,0 +1,8 @@
+label: Espécie
+name: especie
+type: enum
+options: 
+  width: 3
+  showLabel: true
+  values: "Bovina: bovina\nCanina: canina\nEquina: equina\nFelina: felina\nPássaros: passaros\nRépteis: repteis\nOutros: outros"
+  group: Dados do Pet

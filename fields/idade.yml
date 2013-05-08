@@ -1,0 +1,11 @@
+label: Idade
+name: idade
+type: string
+options: 
+  width: "1"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  group: Dados do Pet

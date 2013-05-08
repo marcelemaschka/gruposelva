@@ -1,0 +1,10 @@
+label: Data
+name: data
+type: date
+options: 
+  widget: 
+    id: datepicker
+  width: 3
+  showLabel: true
+  group: Acompanhamento de Peso
+  optional: true

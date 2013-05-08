@@ -1,0 +1,22 @@
+type: "crud-v1"
+entityName: Pet
+entityNamePlural: Pets
+description: Cadastro de Pets
+name: pets
+readMenu: Visualizar//Pets
+createMenu: Cadastrar//Pets
+fields: 
+  - dono
+  - contato
+  - nome
+  - sexo
+  - nascimento
+  - raca
+  - foto
+  - idade
+  - especie
+  - ult_consulta
+  - data_da_vacina
+  - vacinas_vermifugos
+  - data
+  - peso

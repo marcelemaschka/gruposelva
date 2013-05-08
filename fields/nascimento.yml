@@ -1,0 +1,9 @@
+label: Nascimento
+name: nascimento
+type: date
+options: 
+  widget: 
+    id: datepicker
+  width: "2"
+  showLabel: true
+  group: Dados do Pet

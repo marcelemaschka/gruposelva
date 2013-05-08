@@ -1,0 +1,12 @@
+label: Vacinas/Vermífugos
+name: vacinas_vermifugos
+type: string
+options: 
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  width: 3
+  showLabel: true
+  group: Vacinas e Vermífugos
+  optional: true

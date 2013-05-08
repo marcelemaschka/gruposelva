@@ -1,0 +1,12 @@
+label: Foto
+name: foto
+type: string
+options: 
+  width: 3
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textarea
+  showLabel: true
+  group: Dados do Pet
+  optional: true

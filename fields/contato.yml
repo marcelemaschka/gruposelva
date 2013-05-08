@@ -1,0 +1,7 @@
+label: Contato
+name: contato
+type: number
+options: 
+  width: 3
+  showLabel: true
+  group: Dono

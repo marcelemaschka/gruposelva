@@ -1,0 +1,10 @@
+label: Data da Vacina
+name: data_da_vacina
+type: date
+options: 
+  widget: 
+    id: datepicker
+  width: 3
+  showLabel: true
+  group: Vacinas e Vermífugos
+  optional: true

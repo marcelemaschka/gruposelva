@@ -1,0 +1,8 @@
+label: Sexo
+name: sexo
+type: enum
+options: 
+  width: "1"
+  showLabel: true
+  values: "Masculino\nFeminino"
+  group: Dados do Pet

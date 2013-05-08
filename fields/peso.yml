@@ -1,0 +1,12 @@
+label: Peso
+name: peso
+type: string
+options: 
+  width: 3
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  group: Acompanhamento de Peso
+  optional: true

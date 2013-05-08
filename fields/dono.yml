@@ -1,0 +1,11 @@
+label: Dono
+name: dono
+type: string
+options: 
+  width: "9"
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  group: Dono

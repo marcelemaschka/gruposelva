@@ -1,0 +1,11 @@
+label: Raça
+name: raca
+type: string
+options: 
+  width: 3
+  minlength: 2
+  maxlength: 50
+  widget: 
+    id: textinput
+  showLabel: true
+  group: Dados do Pet
